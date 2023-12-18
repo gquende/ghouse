@@ -4,20 +4,21 @@ import 'package:ghouse/pages/login.dart';
 import 'configs/theme.dart';
 
 void main() {
-  runApp(const App());
+  runApp(App(
+    isDarkMode: true,
+  ));
 }
 
 class App extends StatelessWidget {
-  const App({super.key});
+  bool isDarkMode;
+  App({required this.isDarkMode});
 
   //T
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-          primaryColor: AppTheme.PRIMARYCOLOR,
-          primaryColorDark: AppTheme.SECONDARYCOLOR),
+      theme: isDarkMode ? AppTheme.darkMode : AppTheme.light,
       home: Login(),
     );
   }
