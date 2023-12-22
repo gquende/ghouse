@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:ghouse/configs/config.dart';
 import 'package:ghouse/pages/login.dart';
 
 import 'configs/theme.dart';
 
-void main() {
+void main() async {
+  await initConfig();
+
   runApp(App(
     isDarkMode: true,
   ));
