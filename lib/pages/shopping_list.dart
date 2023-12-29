@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ghouse/configs/theme.dart';
 import 'package:ghouse/models/list_line.dart';
 import 'package:ghouse/pages/widgets/shop_item.dart';
+import 'package:ghouse/pages/widgets/shoplist_card.dart';
 
 class ShoppingListView extends StatefulWidget {
   const ShoppingListView({super.key});
@@ -94,6 +95,11 @@ class _ShoppingListViewState extends State<ShoppingListView> {
               SizedBox(
                 height: 10,
               ),
+
+              ShoplistCard(),
+              SizedBox(height: 10,),
+
+
               Column(
                 children: List.generate(
                     5,
