@@ -15,10 +15,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("House Inventory"),
-        centerTitle: true,
-        backgroundColor: AppTheme.SECONDARYCOLOR,
-      ),
+          title: Text("House Inventory", style: TextStyle(color: Colors.black),),
+          ),
       body: SingleChildScrollView(
         child: setPage(_currentIndex),
       ),

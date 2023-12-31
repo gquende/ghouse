@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010371425106",
+    "project_id": "house-inventory-c6d51",
+    "storage_bucket": "house-inventory-c6d51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010371425106:android:ab2fda857a00b3f53e008b",
+        "android_client_info": {
+          "package_name": "com.gquende.ghouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuRP92unhUcxrThqprktzG3wIDanSYrVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010371425106:android:ea2374178cb82e723e008b",
+        "android_client_info": {
+          "package_name": "com.gquende.house_inventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuRP92unhUcxrThqprktzG3wIDanSYrVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

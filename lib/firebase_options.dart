@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCuRP92unhUcxrThqprktzG3wIDanSYrVw',
-    appId: '1:1010371425106:android:ea2374178cb82e723e008b',
+    appId: '1:1010371425106:android:ab2fda857a00b3f53e008b',
     messagingSenderId: '1010371425106',
     projectId: 'house-inventory-c6d51',
     storageBucket: 'house-inventory-c6d51.appspot.com',
@@ -59,10 +59,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBNNYY0ED3igZZS2ySSN3lp6h3ZWWjTHIM',
-    appId: '1:1010371425106:ios:97d7348c92eb70a03e008b',
+    appId: '1:1010371425106:ios:f8e8f029cf1854773e008b',
     messagingSenderId: '1010371425106',
     projectId: 'house-inventory-c6d51',
     storageBucket: 'house-inventory-c6d51.appspot.com',
-    iosBundleId: 'com.gquende.houseInventory',
+    iosBundleId: 'com.gquende.ghouse',
   );
 }
